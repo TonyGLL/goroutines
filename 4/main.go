@@ -74,12 +74,6 @@ func (pc *ProcessCenter) processTask(task *Task) {
 	pc.ResultsCh <- task.ID
 }
 
-/* func (pc *ProcessCenter) addResult(task *Task) {
-	pc.ResultsMutex.Lock()
-	pc.Results = append(pc.Results, task)
-	pc.ResultsMutex.Unlock()
-} */
-
 func (pc *ProcessCenter) printResults() {
 	results := []int{}
 	for result := range pc.ResultsCh {
