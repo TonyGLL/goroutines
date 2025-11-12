@@ -118,8 +118,6 @@ El primer paso es aprender a lanzar tareas concurrentes y, lo más importante, a
 ----
 #### **Nivel 6: El Desafío Final - Sincronización de Estado y Cancelación**
 
-Este ejercicio te acerca a una aplicación del mundo real, integrando la protección de datos y el manejo de señales externas.
-
 **🎯 Objetivo:** Proteger un recurso compartido con `sync.Mutex` y manejar la cancelación a través del paquete `context`.
 
 **Ejercicio 6: "El Contador Concurrente con Cancelación"**
